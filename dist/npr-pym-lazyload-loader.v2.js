@@ -1,4 +1,4 @@
-/*! npr-pym-lazyload-loader.js - v2.0.0 - 2017-07-05 */
+/*! npr-pym-lazyload-loader.js - v2.0.1 - 2017-07-11 */
 /*
 * npr-pym-lazyload-loader is a wrapper library that deals with particular CMS scenarios to successfully load Pym.js, carebot and child tracker in NPR.org into a given page
 * To find out more about Pym.js check out the docs at http://blog.apps.npr.org/pym.js/ or the readme at README.md for usage.
@@ -98,7 +98,7 @@
         // TODO: Improve hack
         // Ignore events to empty embeds, keeps listening after unloading the page
         if (this.el.getElementsByTagName('iframe').length !== 0) {
-            this.sendMessage('on-screen', id);
+            this.sendMessage('element-read', id);
         }
     };
 

@@ -97,7 +97,7 @@
         // TODO: Improve hack
         // Ignore events to empty embeds, keeps listening after unloading the page
         if (this.el.getElementsByTagName('iframe').length !== 0) {
-            this.sendMessage('on-screen', id);
+            this.sendMessage('element-read', id);
         }
     };
 

@@ -1,3 +1,8 @@
+2.0.1
+-----
+
+* Change on-screen message to element-read to avoid conflict with carebot
+
 2.0.0
 -----
 

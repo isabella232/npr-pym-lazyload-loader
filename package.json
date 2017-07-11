@@ -1,6 +1,6 @@
 {
   "name": "npr-pym-lazyload-loader.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "defaultPymUrl": "https://pym.nprapps.org/pym.v1.min.js",
   "defaultCarebotUrl": "https://carebot.nprapps.org/carebot-tracker.v0.min.js",
   "defaultTrackerUrl": "https://carebot.nprapps.org/child-tracker.v2.min.js",
