@@ -1,6 +1,10 @@
 npr-pym-lazyload-loader
 =======================
 
+*IMPORTANT*: After the release of [Pym.js v1.3.0](http://blog.apps.npr.org/pym.js/#optional-scroll-tracking) this project is *obsolete*.
+
+In order to use lazyloading use the options available on [npr-pym-loader](https://github.com/nprapps/npr-pym-loader#optional-scroll-tracking)
+
 * [What is this?](#what-is-this)
 * [Assumptions](#assumptions)
 * [What's in here?](#whats-in-here)
